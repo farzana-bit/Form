@@ -1,0 +1,110 @@
+:root{
+    --success-color: #2ecc71;
+    --error-color:#e74c3c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background: #FFBD9B;
+   color:white;
+   line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    margin: 30px auto;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.form-wrap {
+    background: #FFD8CC;
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color:#0A1D37;
+}
+
+.form-wrap h1{
+    text-align : center
+
+}
+
+.form-wrap .form-group{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.form-wrap .form-group label{
+    display: block;
+     color:#0A1D37;
+     
+
+}
+
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    /*border: 1px solid #ccc */
+}
+
+.form-wrap .form-group input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.form-wrap .form-group.success input{
+    border-color: var(--success-color);
+}
+.form-wrap .form-group.error input{
+    border-color: var(--error-color);
+}
+
+.form-wrap .form-group small{
+    color: var(--error-color);
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-wrap .form-group.error small{
+    visibility: visible;
+}
+
+.form-wrap .btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background:#0A1D37;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-wrap .btn:hover{
+    background:#47597E;
+}
+.form-wrap .bottom-text{
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.form-wrap a{
+    font-size: 10px;
+    text-align: center;
+}

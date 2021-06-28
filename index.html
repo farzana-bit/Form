@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form id="form" class="form-wrap">
+            <h1>Sign up</h1>
+          <div class="form-group">
+              <label for="user-name">Username</label>
+              <input type="text" name="userName" id="user-name" placeholder="Enter username">
+              <small>Error message</small>
+          </div>
+          
+          <div class="form-group  ">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Enter email">
+              <small>Error message</small>
+          </div>
+          <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" placeholder="Enter password">
+              <small>Error message</small>
+          </div>
+          <div class="form-group">
+              <label for="password2">Retype-password</label>
+              <input type="password" name="password2" id="password2" placeholder="Enter password again">
+              <small>Error message</small>
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <p class="bottom-text">By clicking the sign up button, you agree to our</p>
+          <a href="#">Term & Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </form>
+    </div>
+             <script src="index.js"></script>   
+</body>
+</html>
